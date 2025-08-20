@@ -1,4 +1,4 @@
-# POST call
+# POST API call
 ```python
 # Set up credentials
 export DATABRICKS_TOKEN=...
