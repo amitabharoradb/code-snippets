@@ -5,11 +5,7 @@ try:
   dbutils.fs.ls(volume_folder+"/customers")
 except:  
   print(f"folder doesn't exists, generating the data under {volume_folder}...")
-
 ```
 
-## Define an empty config object
-```python
-if 'config' not in locals():
-  config = {}
-```
+## How to read data from Marketplace
+[Example of "Load Retail Catalog from Marketplace"](https://e2-demo-field-eng.cloud.databricks.com/editor/notebooks/567797471593961?o=1444828305810485#command/7578492502727050)
