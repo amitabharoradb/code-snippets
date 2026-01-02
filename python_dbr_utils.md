@@ -1,3 +1,13 @@
+## How to use Boolean notebook widgets
+```python
+reset_all_data = dbutils.widgets.get("reset_all_data") == "true"
+```
+
+## Define scmema variables
+```python
+schema = dbName = db = "dbdemos_feature_store"
+```
+
 ## Check if a volume exists
 ```python
 try:
